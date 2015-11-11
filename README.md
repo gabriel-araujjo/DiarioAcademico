@@ -1,5 +1,5 @@
-Academic Diary for teacher
-==========================
+Academic Diary for teachers
+===========================
 
 Licence Apache 2.0
 
