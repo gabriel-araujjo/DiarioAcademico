@@ -8,13 +8,14 @@
 #include <string>
 #include <list>
 
-using std::string
-using std::list
+using std::string;
+using std::list;
+using namespace std;
 
 namespace model {
 
     class Student {
-    private:
+    public:
         string name;
         string enrollment;
         list<float> grades;
@@ -23,11 +24,11 @@ namespace model {
 
         string getName();
 
-        void setName(string &name);
+        void setName(string name);
 
         string getEnrollment();
 
-        void setEnrollment(string &enrollment);
+        void setEnrollment(int &enrollment);
 
         void addGrade(float grade);
 
@@ -38,6 +39,10 @@ namespace model {
 
     };
 
+
 }
+
+int menu();
+
 
 #endif //DIARIOACADEMICO_STUDENT_H
