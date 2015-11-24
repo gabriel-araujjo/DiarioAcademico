@@ -19,9 +19,7 @@ const string &SchoolClass::getSchoolName() const {
     return schoolName;
 }
 
-void SchoolClass::setSchoolName(const string &schoolName) const {
-    this->schoolName = schoolName;
-}
+
 
 const string &SchoolClass::getName() const {
     return name;
