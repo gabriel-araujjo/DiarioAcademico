@@ -46,3 +46,22 @@ void SchoolClass::setSchedule(const string &schedule) {
 }
 
 
+string model::Attachment::getPath() {
+    return path;
+}
+
+bool model::Attachment::isInternal() {
+    return false;
+}
+
+void model::Attachment::setInternal(bool internal) {
+
+}
+
+void model::Attachment::setPath(string path) {
+
+}
+
+void SchoolClass::setSchoolName(const string &schoolName) const {
+
+}
